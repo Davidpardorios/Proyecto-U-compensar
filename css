@@ -1,0 +1,26 @@
+.main-footer {
+    background: #002850;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #ffb400;
+}
+
+/* Otros estilos adicionales como la cabecera, héroe, y secciones se añaden también */
