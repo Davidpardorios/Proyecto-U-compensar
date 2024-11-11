@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fundación Compensar - Contribuyendo al bienestar de la comunidad">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Fundación Compensar</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Logo Fundación Compensar">
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#programas">Programas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="container">
+                <h1>Bienvenidos a la Fundación Compensar</h1>
+                <p>Contribuyendo al bienestar y desarrollo social de nuestra comunidad.</p>
+                <a href="#programas" class="btn-primary">Conoce Nuestros Programas</a>
+            </div>
+        </section>
+
+        <section class="about-us" id="nosotros">
+            <div class="container">
+                <h2>Sobre Nosotros</h2>
+                <p>La Fundación Compensar se dedica a fomentar iniciativas sociales que mejoren la calidad de vida de las personas. Nuestro enfoque está en la educación, la salud y el desarrollo integral de la comunidad.</p>
+            </div>
+        </section>
+
+        <section class="programs" id="programas">
+            <div class="container">
+                <h2>Nuestros Programas</h2>
+                <div class="program">
+                    <h3>Educación para Todos</h3>
+                    <p>Ofrecemos programas educativos para niños y adultos, enfocados en reducir la brecha de acceso al conocimiento.</p>
+                </div>
+                <div class="program">
+                    <h3>Salud y Bienestar</h3>
+                    <p>Nuestros servicios de salud están dirigidos a mejorar el bienestar físico y mental de la comunidad.</p>
+                </div>
+                <div class="program">
+                    <h3>Empoderamiento Comunitario</h3>
+                    <p>Facilitamos proyectos que incentivan el empoderamiento y participación de la comunidad.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2024 Fundación Compensar. Todos los derechos reservados.</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Términos de Servicio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
